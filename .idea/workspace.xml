@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbf9cf17-92d9-4630-97f0-fe2816216e65" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hmlFCVCjc34paN1wgk49vWYlCw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/BasicWebsocket-master" />
+  </component>
+  <component name="RunManager" selected="Application.ChatSwingLayout">
+    <configuration name="ChatSwingLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.ChatSwingLayout" />
+      <module name="JavaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatSwingNumberTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.ChatSwingNumberTwo" />
+      <module name="JavaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientSwingLayoutNumberTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.ClientSwingLayoutNumberTwo" />
+      <module name="JavaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.ClientSwingLayoutNumberTwo" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientSwingNumber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.ClientSwingNumber2" />
+      <module name="JavaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.ClientSwingLayoutNumberTwo" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.JavaSocketServer" />
+      <module name="JavaClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatSwingLayout" />
+        <item itemvalue="Application.JavaSocketServer" />
+        <item itemvalue="Application.ChatSwingNumberTwo" />
+        <item itemvalue="Application.ClientSwingNumber2" />
+        <item itemvalue="Application.ClientSwingLayoutNumberTwo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbf9cf17-92d9-4630-97f0-fe2816216e65" name="Default Changelist" comment="" />
+      <created>1600624042686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600624042686</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="893" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609739760478">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="893" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990090196" />
+    <state x="893" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609739760478" />
+    <state x="1739" y="539" key="FileChooserDialogImpl" timestamp="1607453900603">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1739" y="539" key="FileChooserDialogImpl/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607453900603" />
+    <state width="2517" height="253" key="GridCell.Tab.0.bottom" timestamp="1609740411271">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="257" key="GridCell.Tab.0.bottom/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990404017" />
+    <state width="2517" height="253" key="GridCell.Tab.0.bottom/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609740411271" />
+    <state width="1750" height="231" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605571292328" />
+    <state width="1750" height="232" key="GridCell.Tab.0.bottom/0.23.1792.1045@0.23.1792.1045" timestamp="1605570959825" />
+    <state width="2517" height="253" key="GridCell.Tab.0.center" timestamp="1609740411271">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="257" key="GridCell.Tab.0.center/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990404017" />
+    <state width="2517" height="253" key="GridCell.Tab.0.center/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609740411271" />
+    <state width="1750" height="231" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605571292327" />
+    <state width="1750" height="232" key="GridCell.Tab.0.center/0.23.1792.1045@0.23.1792.1045" timestamp="1605570959806" />
+    <state width="2517" height="253" key="GridCell.Tab.0.left" timestamp="1609740411271">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="257" key="GridCell.Tab.0.left/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990404017" />
+    <state width="2517" height="253" key="GridCell.Tab.0.left/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609740411271" />
+    <state width="1750" height="231" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605571292326" />
+    <state width="1750" height="232" key="GridCell.Tab.0.left/0.23.1792.1045@0.23.1792.1045" timestamp="1605570959805" />
+    <state width="2517" height="253" key="GridCell.Tab.0.right" timestamp="1609740411271">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="257" key="GridCell.Tab.0.right/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990404017" />
+    <state width="2517" height="253" key="GridCell.Tab.0.right/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609740411271" />
+    <state width="1750" height="231" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605571292327" />
+    <state width="1750" height="232" key="GridCell.Tab.0.right/0.23.1792.1045@0.23.1792.1045" timestamp="1605570959824" />
+    <state width="1750" height="234" key="GridCell.Tab.1.bottom" timestamp="1604965623269">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="234" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604965623269" />
+    <state width="1750" height="234" key="GridCell.Tab.1.center" timestamp="1604965623267">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="234" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604965623267" />
+    <state width="1750" height="234" key="GridCell.Tab.1.left" timestamp="1604965623265">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="234" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604965623265" />
+    <state width="1750" height="234" key="GridCell.Tab.1.right" timestamp="1604965623268">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="234" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604965623268" />
+    <state x="872" y="437" key="Vcs.Push.Dialog.v2" timestamp="1609740218244">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="872" y="437" key="Vcs.Push.Dialog.v2/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609740218244" />
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1605568277701">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605568277701" />
+    <state x="662" y="325" key="new project wizard" timestamp="1607987137725">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="662" y="325" key="new project wizard/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607987137725" />
+  </component>
+</project>
