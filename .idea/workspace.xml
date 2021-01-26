@@ -20,20 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf9cf17-92d9-4630-97f0-fe2816216e65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Client/SplashScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaClient/Client/ChatSwingLayout$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaClient/Client/ChatSwingLayout$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaClient/Client/ChatSwingLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaClient/Client/ChatSwingLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaClient/Client/ChatSwingNumberTwo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaClient/Client/ChatSwingNumberTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaClient/Client/JavaClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaClient/Client/JavaClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaClient/Server/ClientChatThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaClient/Server/ClientChatThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaClient/Server/JavaSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaClient/Server/JavaSocketServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/ChatSwingLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/ChatSwingLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/ChatSwingNumberTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/JavaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/JavaClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/JavaSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/JavaSocketServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.ChatSwingLayout">
+  <component name="RunManager" selected="Application.JavaSocketServer">
     <configuration name="ChatSwingLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client.ChatSwingLayout" />
       <module name="JavaClient" />
@@ -121,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChatSwingLayout" />
         <item itemvalue="Application.JavaSocketServer" />
+        <item itemvalue="Application.ChatSwingLayout" />
         <item itemvalue="Application.ChatSwingNumberTwo" />
         <item itemvalue="Application.SplashScreen" />
         <item itemvalue="Application.ClientSwingNumber2" />
