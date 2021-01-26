@@ -3,6 +3,8 @@ package Server;// A Java program for a Server
 import Util.*;
 import java.net.*;
 import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 
 public class JavaSocketServer {
     //initialize socket and input stream
@@ -11,6 +13,7 @@ public class JavaSocketServer {
     private Socket[] socketArray = new Socket[NUMBER_OF_CONNECTIONS];
     private ServerSocket server = null;
     private DataInputStream in = null;
+
 
 
 
@@ -82,6 +85,7 @@ class ClientChatThread extends Thread{
     private BufferedWriter socketWR = null;
     private Socket[] socketArray = null;
     private ColorClass colorCodes = new ColorClass();
+    public ArrayList<String> users = new ArrayList<String>();
 
 
 
@@ -103,8 +107,7 @@ class ClientChatThread extends Thread{
         }
     }
     protected void broadcast(byte[] byteArray, int nob){
-        //String inputString = "Hello World!";
-        //byte[] byteArray = inputString.getBytes();
+
         try{
             for(int i = 0; i < socketArray.length; i++){
 
@@ -123,7 +126,15 @@ class ClientChatThread extends Thread{
             System.out.println(s);
         }
     }
-
+    protected String getUserName(String message){
+        int index = message.indexOf(":");
+        if(index == -1){
+            return "";
+        }
+        else{
+            return message.substring(0,index);
+        }
+    }
 
     public void run(){
         try
@@ -146,6 +157,12 @@ class ClientChatThread extends Thread{
                 nob = sin1.read(mb1);
 
                 dataString += new String(mb1, 0, nob);
+                String sender = getUserName(dataString);
+               /* if(!users.contains(sender)){
+                    users.add(sender);
+                    System.out.println(sender);
+                }*/
+
                 System.out.print(colorCodes.ANSI_GREEN);
                 System.out.println(dataString);
                 System.out.print(colorCodes.ANSI_RESET);

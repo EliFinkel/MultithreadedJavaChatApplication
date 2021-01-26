@@ -6,7 +6,13 @@ import Util.ColorClass;
 import javax.swing.*;
 import java.io.*;
 import java.net.*;
-
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+import javax.swing.*;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.StyleConstants;
 
 
 public class JavaClient extends Thread
@@ -22,7 +28,8 @@ public class JavaClient extends Thread
     private BufferedReader socketBR = null;
     private BufferedWriter socketWR = null;
     private JTextPane msgArea = null;
-
+    JTextPane roomParticipants = null;
+    private ArrayList<String> USERS = new ArrayList<String>();
 
 
 
@@ -59,6 +66,7 @@ public class JavaClient extends Thread
         return name;
 
     }
+
 
     public JavaClient(String address, int port)
     {
@@ -132,11 +140,12 @@ public class JavaClient extends Thread
 
 
 
-    public JavaClient(String address, int port, boolean gui, JTextPane msgArea) {
+    public JavaClient(String address, int port, boolean gui, JTextPane msgArea, String userName, JTextPane roomParticipants) {
         // establish a connection
         this.msgArea = msgArea;
+        this.roomParticipants = roomParticipants;
         try {
-            readName();
+            this.name = userName;
             socket = new Socket(address, port);
             System.out.println("Connected");
 
@@ -172,36 +181,16 @@ public class JavaClient extends Thread
 
     }
 
-    /*public void run(){
-        System.out.println("Client Thread Started");
-        try {
-            DataInputStream sin1 = new DataInputStream(socket.getInputStream());
-
-            String dataString = "";
-            byte[] mb1 = new byte[1000];
-            while(true) {
-                try {
-
-                    dataString = "";
-                    int nob = sin1.read(mb1);
-                    dataString += new String(mb1, 0, nob);
-
-                    if(dataString.startsWith(name)){
-                        printLine(dataString, ColorClass.ANSI_GREEN);
-                    }
-                    else{
-                        printLine(dataString, ColorClass.ANSI_BLUE);
-                    }
-
-                } catch (IOException i) {
-                    System.out.println(i);
-                }
-            }
+    protected String getUsername(String message){
+        int index = message.indexOf(":");
+        if(index == -1){
+            return "";
         }
-        catch(IOException e){
-            System.out.println(e);
+        else{
+            return message.substring(0,index);
         }
-    }*/
+    }
+
 
     public void run(){
         System.out.println("Client Thread Started");
@@ -218,9 +207,26 @@ public class JavaClient extends Thread
                     int nob = sin1.read(mb1);
                     dataString += new String(mb1, 0, nob);
                     if(dataString == null){ continue; }
+                    String sender = getUsername(dataString);
+                    if(!USERS.contains(sender)){
+                        USERS.add(sender);
+                        if(roomParticipants != null){
+                            roomParticipants.setText(roomParticipants.getText() + "\n" + sender);
+                        }
+
+                    }
+
                     if(dataString.startsWith(name)){
                         msgArea.setText(msgArea.getText() + "\n" + dataString);
                         //printLine(dataString, ColorClass.ANSI_GREEN);
+                        /*if(dataString.substring(0, dataString.indexOf(':')) == name){
+                            SimpleAttributeSet attribs = new SimpleAttributeSet();
+                            StyleConstants.setAlignment(attribs, StyleConstants.ALIGN_RIGHT);
+                            msgArea.setParagraphAttributes(attribs, true);
+                        }*/
+                        //Should set text to right side ^
+
+
                     }
                     else{
                         msgArea.setText(msgArea.getText() + "\n" + dataString);

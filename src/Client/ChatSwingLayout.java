@@ -2,6 +2,7 @@ package Client;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.SimpleAttributeSet;
@@ -10,28 +11,37 @@ import javax.swing.text.StyleConstants;
 
 public class ChatSwingLayout implements ActionListener{
     private JavaClient client;
+    private SplashScreen splash;
     private JFrame mainFrame;
     JTextField sendArea;
     JTextPane  msgArea = new JTextPane();
+    JTextPane roomParticipants = new JTextPane();
+    private String userName;
 
 
-    public ChatSwingLayout(){
-        /*String ipAddress = null;
 
-        if(args.length == 0){
-            // if(args[0] == null){
-            ipAddress = "192.168.1.42";
-            //}
+    public ChatSwingLayout(String ip){
+        splash = new SplashScreen();
 
-        }*/
+
         prepareGUI();
-        client = new JavaClient("192.168.1.42", 50000, true, msgArea);
+        splash.prepareGUI(mainFrame);
+        userName = splash.getUserName();
+        client = new JavaClient(ip, 50000, true, msgArea, userName, roomParticipants);
 
     }
     public static void main(String[] args)throws BadLocationException{
-        ChatSwingLayout chatSwingLayout = new ChatSwingLayout();
+        String ip = args[0];
+        if(ip == null){
+            ip = "192.168.1.42";
+        }
+        ChatSwingLayout chatSwingLayout = new ChatSwingLayout(ip);
         chatSwingLayout.showBorderLayoutDemo();
     }
+
+
+
+
     private void prepareGUI(){
 
         mainFrame = new JFrame("Java SWING Examples");
@@ -73,18 +83,15 @@ public class ChatSwingLayout implements ActionListener{
         }*/
 
         StyleConstants.setItalic(attributeSet, true);
-        StyleConstants.setForeground(attributeSet, Color.red);
-        StyleConstants.setBackground(attributeSet, Color.blue);
+        StyleConstants.setForeground(attributeSet, Color.black);
+        StyleConstants.setBackground(attributeSet, Color.white);
 
 
 
-        //Participants pane
-        JTextPane roomParticipants = new JTextPane();
+
         roomParticipants.setPreferredSize(new Dimension(100,300));
         roomParticipants.setCharacterAttributes(attributeSet, true);
-        for(int i = 0; i < 10; i++){
-            roomParticipants.setText( roomParticipants.getText() + "\nPerson #: " + i);
-        }
+
 
 
         JPanel sendPanel = new JPanel();
@@ -122,3 +129,5 @@ public class ChatSwingLayout implements ActionListener{
 
 
 }
+
+
