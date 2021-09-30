@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf9cf17-92d9-4630-97f0-fe2816216e65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Client/ChatSwingLayoutPerson2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaClient/Client/ChatSwingLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaClient/Client/ChatSwingLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaClient/Client/JavaClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaClient/Client/JavaClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/ChatSwingLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/ChatSwingLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/JavaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/JavaClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1hmlFCVCjc34paN1wgk49vWYlCw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,10 +58,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.JavaSocketServer">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ChatSwingLayoutPerson2">
     <configuration name="ChatSwingLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client.ChatSwingLayout" />
+      <module name="JavaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatSwingLayoutPerson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.ChatSwingLayoutPerson2" />
       <module name="JavaClient" />
       <extension name="coverage">
         <pattern>
@@ -66,19 +98,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientSwingNumber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client.ClientSwingNumber2" />
-      <module name="JavaClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Client.ClientSwingLayoutNumberTwo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaSocketServer" />
+        <item itemvalue="Application.ChatSwingLayoutPerson2" />
         <item itemvalue="Application.ChatSwingLayout" />
+        <item itemvalue="Application.JavaSocketServer" />
         <item itemvalue="Application.ChatSwingNumberTwo" />
         <item itemvalue="Application.SplashScreen" />
-        <item itemvalue="Application.ClientSwingNumber2" />
       </list>
     </recent_temporary>
   </component>
@@ -141,90 +160,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="893" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609739760478">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="893" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990090196" />
-    <state x="893" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609739760478" />
-    <state x="1739" y="539" key="FileChooserDialogImpl" timestamp="1610555204527">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="1739" y="539" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1610555204527" />
-    <state x="1739" y="539" key="FileChooserDialogImpl/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607453900603" />
-    <state width="2517" height="125" key="GridCell.Tab.0.bottom" timestamp="1611102333048">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1410@-1920.0.1920.1050" timestamp="1610504679821" />
-    <state width="2517" height="125" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1611102333048" />
-    <state width="2517" height="257" key="GridCell.Tab.0.bottom/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990404017" />
-    <state width="2517" height="253" key="GridCell.Tab.0.bottom/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609782693553" />
-    <state width="1750" height="231" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605571292328" />
-    <state width="1750" height="232" key="GridCell.Tab.0.bottom/0.23.1792.1045@0.23.1792.1045" timestamp="1605570959825" />
-    <state width="2517" height="125" key="GridCell.Tab.0.center" timestamp="1611102333048">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1410@-1920.0.1920.1050" timestamp="1610504679820" />
-    <state width="2517" height="125" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1611102333048" />
-    <state width="2517" height="257" key="GridCell.Tab.0.center/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990404017" />
-    <state width="2517" height="253" key="GridCell.Tab.0.center/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609782693553" />
-    <state width="1750" height="231" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605571292327" />
-    <state width="1750" height="232" key="GridCell.Tab.0.center/0.23.1792.1045@0.23.1792.1045" timestamp="1605570959806" />
-    <state width="2517" height="125" key="GridCell.Tab.0.left" timestamp="1611102333048">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1410@-1920.0.1920.1050" timestamp="1610504679820" />
-    <state width="2517" height="125" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1611102333048" />
-    <state width="2517" height="257" key="GridCell.Tab.0.left/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990404017" />
-    <state width="2517" height="253" key="GridCell.Tab.0.left/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609782693553" />
-    <state width="1750" height="231" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605571292326" />
-    <state width="1750" height="232" key="GridCell.Tab.0.left/0.23.1792.1045@0.23.1792.1045" timestamp="1605570959805" />
-    <state width="2517" height="125" key="GridCell.Tab.0.right" timestamp="1611102333048">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1410@-1920.0.1920.1050" timestamp="1610504679821" />
-    <state width="2517" height="125" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1611102333048" />
-    <state width="2517" height="257" key="GridCell.Tab.0.right/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607990404017" />
-    <state width="2517" height="253" key="GridCell.Tab.0.right/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609782693553" />
-    <state width="1750" height="231" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605571292327" />
-    <state width="1750" height="232" key="GridCell.Tab.0.right/0.23.1792.1045@0.23.1792.1045" timestamp="1605570959824" />
-    <state width="2517" height="125" key="GridCell.Tab.1.bottom" timestamp="1611102333048">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2517" height="125" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1611102333048" />
-    <state width="1750" height="234" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604965623269" />
-    <state width="2517" height="125" key="GridCell.Tab.1.center" timestamp="1611102333048">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2517" height="125" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1611102333048" />
-    <state width="1750" height="234" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604965623267" />
-    <state width="2517" height="125" key="GridCell.Tab.1.left" timestamp="1611102333048">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2517" height="125" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1611102333048" />
-    <state width="1750" height="234" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604965623265" />
-    <state width="2517" height="125" key="GridCell.Tab.1.right" timestamp="1611102333048">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2517" height="125" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1611102333048" />
-    <state width="1750" height="234" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604965623268" />
-    <state x="872" y="437" key="Vcs.Push.Dialog.v2" timestamp="1609740218244">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="872" y="437" key="Vcs.Push.Dialog.v2/-1920.92.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1609740218244" />
-    <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1605568277701">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605568277701" />
-    <state x="662" y="325" key="new project wizard" timestamp="1610422606094">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="662" y="325" key="new project wizard/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1610422606094" />
-    <state x="662" y="325" key="new project wizard/-1920.255.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1607987137725" />
-    <state x="936" y="333" key="run.anything.popup" timestamp="1610407855098">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="936" y="333" key="run.anything.popup/-1920.0.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1610407855098" />
   </component>
 </project>

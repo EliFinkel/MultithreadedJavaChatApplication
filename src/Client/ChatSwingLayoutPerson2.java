@@ -1,15 +1,17 @@
 package Client;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 
-public class ChatSwingLayout implements ActionListener{
+public class ChatSwingLayoutPerson2 implements ActionListener{
     private JavaClient client;
     private SplashScreen splash;
     private JFrame mainFrame;
@@ -20,7 +22,7 @@ public class ChatSwingLayout implements ActionListener{
 
 
 
-    public ChatSwingLayout(String ip){
+    public ChatSwingLayoutPerson2(String ip){
         splash = new SplashScreen();
 
 
@@ -35,7 +37,7 @@ public class ChatSwingLayout implements ActionListener{
         if(ip == null){
             ip = "192.168.1.42";
         }*/
-        ChatSwingLayout chatSwingLayout = new ChatSwingLayout("10.2.22.92");
+        ChatSwingLayoutPerson2 chatSwingLayout = new ChatSwingLayoutPerson2("10.2.22.92");
         chatSwingLayout.showBorderLayoutDemo();
     }
 

@@ -255,7 +255,7 @@ public class JavaClient extends Thread
             //}
 
         }
-        JavaClient client = new JavaClient(ipAddress, 50000);
+        JavaClient client = new JavaClient("192.168.1.42", 50000);
     }
 }
 
